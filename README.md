@@ -15,53 +15,51 @@
   </p>
 </div>
 
+## ✨ Features & Use Cases
 
-
-## ✨ Funcionalidades e Casos de Uso
-
-MeowCast não é apenas um ditado; é um assistente completo para o seu fluxo de trabalho (vibe coding).
+MeowCast is not just for dictation; it's a comprehensive assistant for your vibe coding workflow.
 
 ### 🎙️ Hold. Speak. Release. Land.
-O core do aplicativo: **uma única tecla de atalho global**. Pressione e segure, fale, e ao soltar, a transcrição é digitada automaticamente onde o seu cursor estiver. Funciona em *qualquer* aplicativo do Windows sem precisar alternar janelas.
+The core of the application: **one global hotkey**. Press and hold, speak, and upon release, the transcription is automatically typed wherever your cursor is focused. It works across *any* Windows application without needing to switch windows.
 
-### 🤖 Dicas de IA e Análise de Tela
-Com a integração de modelos de visão (como o **Google Gemini Vision**), o MeowCast pode capturar a sua tela anonimamente e diagnosticar erros visuais. 
-* **Exemplo de uso:** Você está com um erro no terminal ou um bug no código. Em vez de copiar, colar e abrir o ChatGPT, você apenas aperta o atalho, fala *"O que há de errado aqui?"* e o MeowCast lê a sua tela e injeta a resposta ali mesmo!
+### 🤖 AI Screen Tips & Vision
+Integrated with vision models like **Google Gemini Vision**, MeowCast can anonymously capture your screen and diagnose visual errors or code bugs. 
+* **Example:** You have a terminal error or a bug in your editor. Instead of copying, pasting, and opening ChatGPT, simply press the hotkey, say *"What is wrong here?"*, and MeowCast reads your screen and injects the solution right there!
 
-### 🎯 AI Skills (Modos Personalizados)
-Crie "Skills" que interceptam e processam o que você diz antes de digitar. Exemplos práticos:
-- **Modo Refatoração:** Diga *"Melhore a performance desta função"*, e o código será gerado no seu editor já formatado.
-- **Modo Dicionário & Tradução:** Fale uma frase em português, e o app digitará a tradução perfeita em inglês, como se você fosse fluente.
-- **Email Formal:** Diga *"avise o chefe que vou atrasar"*, e o MeowCast vai digitar um e-mail longo e profissional automaticamente.
+### 🎯 AI Skills (Custom Prompt Wrappers)
+Create "Skills" that intercept and process what you say before typing it. Practical examples:
+- **Refactoring Mode:** Say *"Improve the performance of this function"*, and the optimized code will be generated and formatted in your editor.
+- **Dictionary & Translation Mode:** Speak a sentence in Portuguese, and the app will type the perfect English translation, as if you were fluent.
+- **Formal Email:** Say *"tell the boss I'll be late"*, and MeowCast will automatically generate and type a long, professional email.
 
-### 📅 Calendário de Eventos & Lembretes
-O MeowCast conta com um módulo interno de visão e organização diária. Você pode acompanhar seus próximos agendamentos e lembretes diretamente pelo painel do assistente, de forma totalmente integrada ao seu fluxo de tela preta.
+### 📅 Event Calendar & Reminders
+MeowCast features a built-in module for daily organization. You can track your upcoming appointments and reminders directly from the assistant's panel, seamlessly integrated into your dark-themed workflow.
 
-### 🎵 Integração Spotify / Spicetify
-O MeowCast se integra ao ecossistema do seu computador! Ele é capaz de ouvir e puxar informações (como letras de músicas) em tempo real do seu player.
-> ⚠️ **Aviso:** Para extrair o máximo do módulo de músicas no painel lateral, é altamente recomendada (e necessária em alguns recursos) a instalação do **[Spicetify](https://spicetify.app/)** no seu cliente Spotify do Windows.
+### 🎵 Spotify / Spicetify Integration
+MeowCast integrates with your computer's ecosystem! It is capable of listening and fetching information (like song lyrics) in real-time from your music player.
+> ⚠️ **Note:** To get the most out of the music module in the sidebar, we highly recommend (and require for some features) installing **[Spicetify](https://spicetify.app/)** in your Windows Spotify client.
 
 ---
 
-## 🔒 Privacidade e Custos (Valores)
+## 🔒 Privacy & Pricing
 
-No MeowCast, **você é dono dos seus dados e dos seus custos.** 
+With MeowCast, **you own your data and your costs.** 
 
-Nós não cobramos mensalidades sobre a IA e não armazenamos seu áudio. O aplicativo se conecta diretamente às **suas próprias chaves de API (API Keys)**. Isso significa que você paga centavos diretamente para as fornecedoras (OpenAI, Groq, Google), ou até mesmo **zero** se utilizar as camadas gratuitas oferecidas (como Groq LPU e Google Gemini Free Tier).
+We do not charge monthly subscription fees for AI, and we do not store your audio. The application connects directly to **your own API Keys**. This means you pay pennies directly to the providers (OpenAI, Groq, Google), or even **zero** if you use their free tiers (like Groq LPU and Google Gemini Free Tier).
 
-* **On-Device:** Suporte experimental para Whisper local (transcrição via CPU/GPU sem internet).
-* **Cloud (Groq):** Transcrições em milissegundos utilizando a arquitetura ultrarrápida LPU.
-* **Multi-Modal (Gemini/OpenAI):** Utilizado para análises avançadas de tela.
+* **On-Device:** Experimental support for local Whisper (transcription via CPU/GPU without internet).
+* **Cloud (Groq):** Millisecond-latency transcriptions using the ultra-fast LPU architecture.
+* **Multi-Modal (Gemini/OpenAI):** Used for advanced screen analysis.
 
 ---
 
 ## 📥 Download
 
-Pronto para aumentar sua produtividade na velocidade do pensamento?
+Ready to boost your productivity at the speed of thought?
 
-**[👉 Baixe agora o Instalador do Windows (.exe)](https://github.com/catevildev/MeowCast/releases/latest)**
+**[👉 Download the Windows Installer (.exe) now](https://github.com/catevildev/MeowCast/releases/latest)**
 
-*(Compatível com Windows 10 e Windows 11).*
+*(Compatible with Windows 10 and Windows 11)*
 
 ---
-<p align="center"><i>Feito com ❤️ por catevildev.</i></p>
+<p align="center"><i>Made with ❤️ by catevildev</i></p>
