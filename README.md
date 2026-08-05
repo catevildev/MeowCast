@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/catevildev/MeowCast/main/src/assets/mwc.svg" width="120" alt="MeowCast Logo" />
   
-  # MeowCast 🐈‍⬛
+  # MeowCast
 
   **Vibe code at the speed of thought.**
 
@@ -60,8 +60,6 @@ Nós não cobramos mensalidades sobre a IA e não armazenamos seu áudio. O apli
 Pronto para aumentar sua produtividade na velocidade do pensamento?
 
 **[👉 Baixe agora o Instalador do Windows (.exe)](https://github.com/catevildev/MeowCast/releases/latest)**
-
-*(Compatível com Windows 10 e Windows 11).*
 
 ---
 <p align="center"><i>Feito com ❤️ por catevildev.</i></p>
