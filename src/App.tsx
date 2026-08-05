@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Download, ChevronDown, Sparkles, Code } from 'lucide-react';
+import { Download, ChevronDown, Sparkles } from 'lucide-react';
 import mwcIcon from './assets/mwc.svg';
 
 const FAQItem = ({ question, answer }: { question: string, answer: string }) => {
@@ -84,7 +84,7 @@ export default function App() {
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a 
-              href="https://github.com/catevildev/MeowCast/releases/latest/download/MeowCast-Setup-1.0.0.exe"
+              href="https://github.com/catevildev/MeowCast/releases/latest/download/MeowCast-Setup-1.0.1.exe"
               className="px-8 py-4 bg-white text-black hover:bg-zinc-200 transition-all rounded-xl font-semibold flex items-center gap-3 text-lg shadow-[0_0_30px_rgba(255,255,255,0.15)] hover:scale-[1.02]"
             >
               <Download size={20} />
