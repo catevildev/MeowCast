@@ -15,19 +15,7 @@
   </p>
 </div>
 
----
 
-## 🛠️ Tecnologias Utilizadas
-
-Este aplicativo foi projetado com as tecnologias mais modernas do ecossistema front-end e desktop:
-
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" width="20" /> **Electron** (Motor principal do app desktop)
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="20" /> **React 19** (Interface reativa e veloz)
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="20" /> **TypeScript** (Segurança e tipagem estrita)
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="20" /> **Tailwind CSS v4** (Estilização ultra-rápida e Dark Theme nativo)
-- <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" width="20" /> **Vite** (Build tool e HMR super rápido)
-
----
 
 ## ✨ Funcionalidades e Casos de Uso
 
