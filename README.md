@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/catevildev/MeowCast/main/src/assets/mwc.svg" width="120" alt="MeowCast Logo" />
   
-  # MeowCast 🐈‍⬛
+  # MeowCast
 
   **Vibe code at the speed of thought.**
 
