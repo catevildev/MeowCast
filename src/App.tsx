@@ -40,8 +40,7 @@ const FAQItem = ({ question, answer }: { question: string, answer: string }) => 
 export default function App() {
   const [lang, setLang] = useState<Language>('en');
   const [activeTab, setActiveTab] = useState<'groq' | 'gemini' | 'openai' | 'local'>('groq');
-  const [downloadUrl, setDownloadUrl] = useState('https://github.com/catevildev/MeowCast/releases/latest');
-  const [downloadVersion, setDownloadVersion] = useState('');
+  const [downloadUrl, setDownloadUrl] = useState<string>('https://github.com/catevildev/MeowCast/releases/latest/download/MeowCast-Setup-1.0.3.exe');
 
   useEffect(() => {
     fetch('https://api.github.com/repos/catevildev/MeowCast/releases/latest')
@@ -51,7 +50,6 @@ export default function App() {
           const asset = data.assets.find((a: any) => a.name.endsWith('.exe'));
           if (asset) {
             setDownloadUrl(asset.browser_download_url);
-            setDownloadVersion(data.tag_name);
           }
         }
       })
