@@ -121,7 +121,7 @@ export default function App() {
               className="px-8 py-4 bg-white text-black hover:bg-zinc-200 transition-all rounded-xl font-semibold flex items-center gap-3 text-lg shadow-[0_0_30px_rgba(255,255,255,0.15)] hover:scale-[1.02]"
             >
               <Download size={20} />
-              {content.hero.download} <span className="text-zinc-500 font-normal text-sm ml-1">{downloadVersion ? `${downloadVersion} .exe` : '.exe'}</span>
+              {content.hero.download}
             </a>
           </div>
           <p className="mt-6 text-xs text-zinc-600 font-mono tracking-widest uppercase">
