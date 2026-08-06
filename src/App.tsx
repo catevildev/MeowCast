@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Download, ChevronDown, Sparkles, Globe, ExternalLink } from 'lucide-react';
 import mwcIcon from './assets/mwc.svg';
@@ -40,6 +40,23 @@ const FAQItem = ({ question, answer }: { question: string, answer: string }) => 
 export default function App() {
   const [lang, setLang] = useState<Language>('en');
   const [activeTab, setActiveTab] = useState<'groq' | 'gemini' | 'openai' | 'local'>('groq');
+  const [downloadUrl, setDownloadUrl] = useState('https://github.com/catevildev/MeowCast/releases/latest');
+  const [downloadVersion, setDownloadVersion] = useState('');
+
+  useEffect(() => {
+    fetch('https://api.github.com/repos/catevildev/MeowCast/releases/latest')
+      .then(res => res.json())
+      .then(data => {
+        if (data.assets) {
+          const asset = data.assets.find((a: any) => a.name.endsWith('.exe'));
+          if (asset) {
+            setDownloadUrl(asset.browser_download_url);
+            setDownloadVersion(data.tag_name);
+          }
+        }
+      })
+      .catch(console.error);
+  }, []);
   
   const content = t[lang];
 
@@ -100,11 +117,11 @@ export default function App() {
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a 
-              href="https://github.com/catevildev/MeowCast/releases/latest/download/MeowCast-Setup-1.0.1.exe"
+              href={downloadUrl}
               className="px-8 py-4 bg-white text-black hover:bg-zinc-200 transition-all rounded-xl font-semibold flex items-center gap-3 text-lg shadow-[0_0_30px_rgba(255,255,255,0.15)] hover:scale-[1.02]"
             >
               <Download size={20} />
-              {content.hero.download} <span className="text-zinc-500 font-normal text-sm ml-1">.exe</span>
+              {content.hero.download} <span className="text-zinc-500 font-normal text-sm ml-1">{downloadVersion ? `${downloadVersion} .exe` : '.exe'}</span>
             </a>
           </div>
           <p className="mt-6 text-xs text-zinc-600 font-mono tracking-widest uppercase">
