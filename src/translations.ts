@@ -113,7 +113,7 @@ const pt = {
     kicker: 'Para quem é',
     title: 'Call, ditado, código e live.',
     items: [
-      { title: 'Reunião em outro idioma', desc: 'OUTROS em inglês, Diga isso em português. No fim, o resumo vira ata.' },
+      { title: 'Reunião em outro idioma', desc: 'A reunião em inglês, Diga isso em português. No fim, o resumo vira ata.' },
       { title: 'Quem fala mais do que digita', desc: 'Suporte, comercial, criadores. Skill no tom certo, dicionário no nome do produto.' },
       { title: 'Dev no meio do fluxo', desc: 'Dita no editor, Spotlight na docs, dicas da IA no erro da tela.' },
       { title: 'Live e gravação', desc: 'Stealth esconde o overlay do OBS. O gato continua só na sua máquina.' },
@@ -171,7 +171,7 @@ const pt = {
       },
       {
         q: 'Posso usar em português numa call em inglês?',
-        a: 'Sim. Você escolhe o idioma do VOCÊ, o dos OUTROS e o idioma de tradução/sugestão.',
+        a: 'Sim. Você escolhe o idioma da sua fala, o da reunião e o de tradução/sugestão.',
       },
       {
         q: 'A busca Spotlight usa o Google?',
@@ -358,7 +358,7 @@ const en: Copy = {
     kicker: 'Who it’s for',
     title: 'Calls, dictation, code and streams.',
     items: [
-      { title: 'Meetings in another language', desc: 'OTHERS in English, Say this in Portuguese. The summary becomes the notes.' },
+      { title: 'Meetings in another language', desc: 'The meeting in English, Say this in Portuguese. The summary becomes the notes.' },
       { title: 'People who talk more than they type', desc: 'Support, sales, creators. A Skill for tone, a dictionary for product names.' },
       { title: 'Devs in the flow', desc: 'Dictate in the editor, Spotlight the docs, AI tips on the on-screen error.' },
       { title: 'Live and recording', desc: 'Stealth hides the overlay from OBS. The cat stays on your machine only.' },
@@ -416,7 +416,7 @@ const en: Copy = {
       },
       {
         q: 'Can I use Portuguese in an English call?',
-        a: 'Yes. You pick the language for YOU, for OTHERS, and for translation/suggestions.',
+        a: 'Yes. You pick the language for your speech, for the meeting, and for translation/suggestions.',
       },
       {
         q: 'Does Spotlight search Google?',
@@ -601,7 +601,7 @@ const es: Copy = {
     kicker: 'Para quién es',
     title: 'Call, dictado, código y live.',
     items: [
-      { title: 'Reunión en otro idioma', desc: 'OTROS en inglés, Di esto en portugués. Al final, el resumen es el acta.' },
+      { title: 'Reunión en otro idioma', desc: 'La reunión en inglés, Di esto en portugués. Al final, el resumen es el acta.' },
       { title: 'Quien habla más de lo que escribe', desc: 'Soporte, comercial, creadores. Skill en el tono, diccionario en el nombre del producto.' },
       { title: 'Dev en el flujo', desc: 'Dicta en el editor, Spotlight en la docs, tips de IA en el error de pantalla.' },
       { title: 'Live y grabación', desc: 'Stealth esconde el overlay del OBS. El gato sigue solo en tu máquina.' },
@@ -659,7 +659,7 @@ const es: Copy = {
       },
       {
         q: '¿Puedo usar portugués en una call en inglés?',
-        a: 'Sí. Eliges el idioma de TÚ, el de OTROS y el de traducción/sugerencia.',
+        a: 'Sí. Eliges el idioma de tu voz, el de la reunión y el de traducción/sugerencia.',
       },
       {
         q: '¿Spotlight busca en Google?',
