@@ -7,7 +7,6 @@
 
   [![Version](https://img.shields.io/github/v/release/catevildev/MeowCast?color=8b5cf6&label=Release&style=for-the-badge)](https://github.com/catevildev/MeowCast/releases)
   [![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows)](https://github.com/catevildev/MeowCast/releases)
-  [![Tech Stack](https://img.shields.io/badge/Built_with-Electron_%7C_React_%7C_TypeScript-3178c6?style=for-the-badge)](https://github.com/catevildev/MeowCast)
   [![License](https://img.shields.io/badge/License-Private-red?style=for-the-badge)](#)
 
   <p align="center">
