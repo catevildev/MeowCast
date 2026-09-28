@@ -8,28 +8,28 @@ const pt = {
     download: 'Baixar grátis',
   },
   hero: {
-    badge: 'Overlay no Windows · suas chaves',
-    title: 'Fale. O MeowCast escreve.',
-    titleItalic: 'Sem sair da tela.',
+    badge: 'O seu Copiloto Pessoal · 100% Grátis',
+    title: 'A IA que trabalha por você.',
+    titleItalic: 'Sem cobrar mensalidade.',
     subtitle:
-      'Receba ditado, transcrição e o que dizer na reunião — sem convidar um bot. O MeowCast escuta no seu computador e fica numa janela própria ao lado do Zoom, Meet, Teams e de qualquer conversa.',
-    download: 'Baixar grátis',
-    secondary: 'Ver o LiveSense',
-    requires: 'Windows 10+ · sem login · você traz a chave',
+      'Chega de convidar bots para as suas reuniões ou pagar assinaturas caras. O MeowCast é um assistente invisível que transcreve calls, sugere respostas e dita textos em qualquer app. Você só conecta a sua chave (Gemini, Groq ou OpenAI) e usa.',
+    download: 'Baixar grátis (Windows)',
+    secondary: 'Descubra como',
+    requires: 'Windows 10+ · Sem criar conta · Você no controle',
   },
   trust: [
+    '100% Gratuito (Sem assinaturas)',
     'Nenhum bot entra na chamada',
-    'Funciona com qualquer app',
-    'Você controla quando ele escuta',
+    'Privacidade (Histórico fica no seu PC)',
   ],
   apps: {
-    left: 'Um copiloto para qualquer conversa',
+    left: 'Esqueça os bots intrusivos',
     right:
-      'Zoom, Google Meet, Microsoft Teams, Discord, Slack, áudio presencial e o que vier depois.',
+      'Funciona de forma invisível no Zoom, Google Meet, Microsoft Teams, Discord, Slack ou até áudios presenciais.',
   },
   scenes: {
-    kicker: 'Três cenas',
-    title: 'O overlay vai até o seu fluxo.',
+    kicker: 'Por que você vai amar',
+    title: 'Produtividade que parece mágica.',
     items: [
       {
         title: 'Fala que o cursor escreve.',
@@ -73,9 +73,9 @@ const pt = {
     ],
   },
   start: {
-    kicker: 'Começa em três passos',
-    title: 'Instala. Cola a chave. Fala.',
-    subtitle: 'Não há conta MeowCast. BYOK: você cola a API key do provedor. O app chama a API em seu nome.',
+    kicker: 'Em menos de 1 minuto',
+    title: 'Baixe, conecte e use grátis.',
+    subtitle: 'Esqueça formulários ou cartões de crédito. Não exigimos criação de conta. Você só cola a sua API Key gratuita (como a do Gemini ou Groq) e a mágica acontece.',
     steps: [
       { n: '01', title: 'Baixa no Windows', desc: 'Instalador NSIS. Escolhe PT, EN ou ES no primeiro uso.' },
       { n: '02', title: 'Cola uma chave', desc: 'Groq, OpenAI ou Gemini. Groq costuma ser o ponto de entrada gratuito.' },
@@ -184,9 +184,9 @@ const pt = {
     ],
   },
   cta: {
-    title: 'Um gato no canto da tela. O resto é atalho.',
-    body: 'Baixa, cola a chave, segura o atalho. Sem mensalidade nossa.',
-    download: 'Baixar para Windows',
+    title: 'Pronto para turbinar suas reuniões?',
+    body: 'Junte-se aos usuários que já abandonaram as assinaturas caras. Baixe o MeowCast agora e use a melhor IA do mercado totalmente de graça.',
+    download: 'Baixar grátis para Windows',
     github: 'GitHub',
   },
   footer: {
@@ -253,28 +253,28 @@ const en: Copy = {
     download: 'Download free',
   },
   hero: {
-    badge: 'Windows overlay · your keys',
-    title: 'Speak. MeowCast writes.',
-    titleItalic: 'Without leaving the screen.',
+    badge: 'Your Personal Copilot · 100% Free',
+    title: 'The AI that works for you.',
+    titleItalic: 'Without monthly fees.',
     subtitle:
-      'Live dictation, meeting notes and the next line to say — with no bot in the call. MeowCast listens on your PC and sits in its own window next to Zoom, Meet, Teams and anything else.',
-    download: 'Download free',
-    secondary: 'See LiveSense',
-    requires: 'Windows 10+ · no login · bring your own key',
+      'Stop inviting bots to your meetings or paying for expensive subscriptions. MeowCast is an invisible assistant that transcribes calls, suggests replies, and dictates text in any app. Just plug your API key (Gemini, Groq, or OpenAI) and use it.',
+    download: 'Download free (Windows)',
+    secondary: 'Discover how',
+    requires: 'Windows 10+ · No account needed · You are in control',
   },
   trust: [
+    '100% Free (No subscriptions)',
     'No bot joins the call',
-    'Works with any app',
-    'You choose when it listens',
+    'Privacy (History stays on your PC)',
   ],
   apps: {
-    left: 'A copilot for any conversation',
+    left: 'Forget intrusive bots',
     right:
-      'Zoom, Google Meet, Microsoft Teams, Discord, Slack, in-person audio, and whatever comes next.',
+      'Works invisibly with Zoom, Google Meet, Microsoft Teams, Discord, Slack or even in-person audio.',
   },
   scenes: {
-    kicker: 'Three scenes',
-    title: 'The overlay comes to your flow.',
+    kicker: 'Why you will love it',
+    title: 'Productivity that feels like magic.',
     items: [
       {
         title: 'Talk. The cursor types.',
@@ -318,9 +318,9 @@ const en: Copy = {
     ],
   },
   start: {
-    kicker: 'Three steps',
-    title: 'Install. Paste a key. Speak.',
-    subtitle: 'No MeowCast account. BYOK: you paste the provider API key. The app calls the API on your behalf.',
+    kicker: 'In less than a minute',
+    title: 'Download, connect and use for free.',
+    subtitle: 'Forget forms or credit cards. We do not require an account. You just paste your free API Key (like Gemini or Groq) and the magic happens.',
     steps: [
       { n: '01', title: 'Download on Windows', desc: 'NSIS installer. Pick PT, EN or ES on first launch.' },
       { n: '02', title: 'Paste a key', desc: 'Groq, OpenAI or Gemini. Groq is usually the free on-ramp.' },
@@ -429,9 +429,9 @@ const en: Copy = {
     ],
   },
   cta: {
-    title: 'A cat in the corner. The rest is a shortcut.',
-    body: 'Download, paste a key, hold the shortcut. No subscription from us.',
-    download: 'Download for Windows',
+    title: 'Ready to turbocharge your meetings?',
+    body: 'Join the users who have already abandoned expensive subscriptions. Download MeowCast now and use the best AI on the market completely for free.',
+    download: 'Download free for Windows',
     github: 'GitHub',
   },
   footer: {
@@ -496,28 +496,28 @@ const es: Copy = {
     download: 'Descargar gratis',
   },
   hero: {
-    badge: 'Overlay en Windows · tus claves',
-    title: 'Habla. MeowCast escribe.',
-    titleItalic: 'Sin salir de la pantalla.',
+    badge: 'Tu Copiloto Personal · 100% Gratis',
+    title: 'La IA que trabaja por ti.',
+    titleItalic: 'Sin pagar mensualidades.',
     subtitle:
-      'Dictado, transcripción y qué decir en la reunión — sin invitar a un bot. MeowCast escucha en tu PC y vive en su propia ventana junto a Zoom, Meet, Teams y cualquier conversación.',
-    download: 'Descargar gratis',
-    secondary: 'Ver LiveSense',
-    requires: 'Windows 10+ · sin login · tú pones la clave',
+      'Deja de invitar bots a tus reuniones o pagar suscripciones caras. MeowCast es un asistente invisible que transcribe llamadas, sugiere respuestas y dicta textos en cualquier app. Solo conecta tu clave (Gemini, Groq o OpenAI) y úsalo.',
+    download: 'Descargar gratis (Windows)',
+    secondary: 'Descubre cómo',
+    requires: 'Windows 10+ · Sin crear cuenta · Tú tienes el control',
   },
   trust: [
+    '100% Gratis (Sin suscripciones)',
     'Ningún bot entra a la llamada',
-    'Funciona con cualquier app',
-    'Tú controlas cuándo escucha',
+    'Privacidad (El historial se queda en tu PC)',
   ],
   apps: {
-    left: 'Un copiloto para cualquier conversación',
+    left: 'Olvida los bots intrusivos',
     right:
-      'Zoom, Google Meet, Microsoft Teams, Discord, Slack, audio presencial y lo que venga después.',
+      'Funciona de forma invisible en Zoom, Google Meet, Microsoft Teams, Discord, Slack o incluso en audios presenciales.',
   },
   scenes: {
-    kicker: 'Tres escenas',
-    title: 'El overlay va a tu flujo.',
+    kicker: 'Por qué te encantará',
+    title: 'Productividad que parece magia.',
     items: [
       {
         title: 'Habla y el cursor escribe.',
@@ -561,9 +561,9 @@ const es: Copy = {
     ],
   },
   start: {
-    kicker: 'Empieza en tres pasos',
-    title: 'Instala. Pega la clave. Habla.',
-    subtitle: 'No hay cuenta MeowCast. BYOK: pegas la API key del proveedor. La app llama a la API en tu nombre.',
+    kicker: 'En menos de 1 minuto',
+    title: 'Descarga, conecta y usa gratis.',
+    subtitle: 'Olvida los formularios o tarjetas de crédito. No exigimos crear cuenta. Solo pegas tu API Key gratuita (como Gemini o Groq) y la magia sucede.',
     steps: [
       { n: '01', title: 'Descarga en Windows', desc: 'Instalador NSIS. Elige PT, EN o ES en el primer uso.' },
       { n: '02', title: 'Pega una clave', desc: 'Groq, OpenAI o Gemini. Groq suele ser la entrada gratuita.' },
@@ -672,9 +672,9 @@ const es: Copy = {
     ],
   },
   cta: {
-    title: 'Un gato en la esquina. El resto es un atajo.',
-    body: 'Descarga, pega la clave, mantén el atajo. Sin suscripción nuestra.',
-    download: 'Descargar para Windows',
+    title: '¿Listo para impulsar tus reuniones?',
+    body: 'Únete a los usuarios que ya abandonaron las suscripciones caras. Descarga MeowCast ahora y usa la mejor IA del mercado totalmente gratis.',
+    download: 'Descargar gratis para Windows',
     github: 'GitHub',
   },
   footer: {

@@ -7,7 +7,6 @@ import {
   CornerDownLeft,
   ExternalLink,
   FileText,
-  Globe,
   GripVertical,
   MessageSquare,
   Mic,
@@ -341,32 +340,38 @@ const SpotlightMock = ({ copy }: { copy: MockCopy }) => (
         <CornerDownLeft size={10} /> {copy.enter}
       </kbd>
     </div>
-    <div className="p-3 space-y-3">
-      <section className="rounded-2xl border border-sky-500/20 bg-sky-500/10 p-3">
-        <div className="flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.14em] text-sky-400 mb-1.5">
-          <Sparkles size={12} className="shrink-0" />
-          {copy.smartAnswer}
+    <div className="px-3.5 py-3.5">
+      <section>
+        <div className="flex items-center gap-2 mb-2.5">
+          <span className="w-6 h-6 rounded-lg bg-sky-500/10 border border-sky-500/15 flex items-center justify-center shrink-0">
+            <Sparkles size={12} className="text-sky-400" />
+          </span>
+          <h3 className="text-[13px] font-medium text-zinc-300">{copy.smartAnswer}</h3>
         </div>
-        <p className="text-[13px] text-zinc-100 leading-relaxed">{copy.spotlightA}</p>
+        <p className="text-[13px] text-zinc-200 leading-[1.7]">{copy.spotlightA}</p>
       </section>
-      <div>
-        <div className="flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.14em] text-zinc-500 mb-1.5">
-          <Globe size={12} />
+      <div className="mt-4">
+        <div className="text-[10px] font-medium tracking-[0.12em] uppercase text-zinc-500 mb-2">
           {copy.sources}
         </div>
-        <div className="rounded-xl border border-zinc-800/80 bg-[#1A1B23] p-3">
-          <div className="flex items-start gap-2.5 min-w-0">
-            <img
-              src={`https://www.google.com/s2/favicons?domain=${encodeURIComponent(copy.source)}&sz=32`}
-              alt=""
-              className="w-4 h-4 mt-0.5 rounded-sm shrink-0 bg-zinc-800"
-            />
-            <div className="flex-1 min-w-0">
-              <div className="text-[11px] text-zinc-500 truncate">{copy.source}</div>
-              <div className="mt-0.5 text-sm font-medium text-sky-400 leading-snug">{copy.sourceTitle}</div>
-              <p className="mt-1 text-xs text-zinc-400 leading-relaxed line-clamp-2">{copy.sourceSnippet}</p>
+        <div className="rounded-xl border border-zinc-800/90 bg-[#161616] overflow-hidden">
+          <div className="flex items-center gap-3 px-3 py-2.5 min-w-0">
+            <div className="w-9 h-9 rounded-lg bg-[#1d1d1d] border border-zinc-800 flex items-center justify-center shrink-0">
+              <img
+                src={`https://www.google.com/s2/favicons?domain=${encodeURIComponent(copy.source)}&sz=64`}
+                alt=""
+                className="w-4 h-4 rounded-sm"
+              />
             </div>
-            <ArrowUpRight size={14} className="text-zinc-600 shrink-0 mt-1" />
+            <div className="flex-1 min-w-0">
+              <div className="text-[13px] font-medium text-zinc-100 leading-snug truncate">{copy.sourceTitle}</div>
+              <div className="mt-0.5 flex items-center gap-1.5 min-w-0 text-[11px] text-zinc-500">
+                <span className="shrink-0">{copy.source}</span>
+                <span className="text-zinc-700 shrink-0">·</span>
+                <span className="truncate">{copy.sourceSnippet}</span>
+              </div>
+            </div>
+            <ArrowUpRight size={14} className="text-zinc-600 shrink-0" />
           </div>
         </div>
       </div>
