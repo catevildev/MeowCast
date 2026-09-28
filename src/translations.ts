@@ -12,7 +12,7 @@ const pt = {
     title: 'A IA que trabalha por você.',
     titleItalic: 'Sem cobrar mensalidade.',
     subtitle:
-      'Chega de convidar bots para as suas reuniões ou pagar assinaturas caras. O MeowCast é um assistente invisível que transcreve calls, sugere respostas e dita textos em qualquer app. Você só conecta a sua chave (Gemini, Groq ou OpenAI) e usa.',
+      'Chega de convidar bots para as suas reuniões ou pagar assinaturas caras. O MeowCast é um assistente invisível que transcreve calls, sugere respostas e dita textos em qualquer app.',
     download: 'Baixar grátis (Windows)',
     secondary: 'Descubra como',
     requires: 'Windows 10+ · Sem criar conta · Você no controle',
